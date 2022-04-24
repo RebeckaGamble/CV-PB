@@ -1,0 +1,95 @@
+.info {
+    align-items: center;
+    float: top;
+    width: 90%;
+}
+.content{
+    width:90%;
+    margin: auto;
+}
+
+
+@media screen and (min-width: 360px) {
+    .top {
+        background-color: white;
+        text-align: center;
+        height: 50px;
+    }
+
+    .content {
+        background-color: rgb(253, 247, 248);
+        margin: 2%;
+        padding: 2%;
+        text-align: left;
+        width: 90%;
+        float: center;
+        line-height: 25px;
+    }
+
+    .info {
+        margin: 2%;
+        text-align: left;
+        float: center;
+        line-height: 25px;
+    }
+
+}
+
+
+@media screen and (min-width: 570px) {
+    .top {
+        background-color: white;
+        text-align: center;
+        height: 50px;
+    }
+
+    .content {
+        background-color: rgb(253, 247, 248);
+        margin: 2%;
+        padding: 2%;
+        text-align: left;
+        width: 92.5%;
+        float: none;
+        line-height: 25px;
+    }
+
+    .info {
+        margin: 2%;
+        width: 75%;
+        text-align: left;
+        float: none;
+        line-height: 25px;
+    }
+
+}
+
+
+@media screen and (min-width: 800px) {
+
+    .top {
+        background-color: white;
+        text-align: center;
+        height: 80px;
+        margin-top: 0.5%;
+    }
+
+    .content {
+        background-color: rgb(253, 247, 248);
+        margin: 2%;
+        margin-right: 5%;
+        padding: 2%;
+        text-align: left;
+        width: 50%;
+        float: right;
+        line-height: 25px;
+    }
+
+    .info {
+        margin: 2%;
+        margin-left: 5%;
+        text-align: left;
+        width: 32%;
+        float:left;
+        line-height: 25px;
+    }
+}
